@@ -1,5 +1,5 @@
 TERMUX_PKG_HOMEPAGE=https://github.com/c0re100/qBittorrent-Enhanced-Edition
-5TERMUX_PKG_DESCRIPTION="[Unofficial] qBittorrent Enhanced, based on qBittorrent"
+TERMUX_PKG_DESCRIPTION="[Unofficial] qBittorrent Enhanced, based on qBittorrent"
 TERMUX_PKG_LICENSE="GPL-2.0, GPL-3.0"
 TERMUX_PKG_MAINTAINER="@zhongerxll"
 TERMUX_PKG_VERSION="5.0.0.10"
