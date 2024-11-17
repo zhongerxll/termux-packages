@@ -6,6 +6,7 @@ on:
     - master
     - dev
     - 'dev/**'
+    - fix-ssl
     paths:
     - 'packages/**'
     - 'root-packages/**'
