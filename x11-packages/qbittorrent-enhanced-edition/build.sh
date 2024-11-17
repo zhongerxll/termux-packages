@@ -22,6 +22,8 @@ TERMUX_PKG_EXTRA_CONFIGURE_ARGS='
 termux_step_post_make_install() {
 	echo -e "termux - building qbittorrent-nox for arch ${TERMUX_ARCH}..."
 	TERMUX_PKG_EXTRA_CONFIGURE_ARGS+='-DGUI=OFF'
+ 	export OPENSSL_INCLUDE_DIR=$TERMUX_PREFIX/include/openssl
+	export OPENSSL_LIB_DIR=$TERMUX_PREFIX/lib
 	termux_step_configure
 	termux_step_make
 	termux_step_make_install
